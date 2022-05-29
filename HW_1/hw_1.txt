@@ -22,8 +22,8 @@ JSON
 - vim new.json
 {"name":"Andrey",
 "age":24,
-"number of animals":1,
-"future salary":"i hope 500$"
+"number_of_animals":1,
+"future_salary":"i hope 500$"
 }
  11. Отправить изменения на внешний репозиторий. 
 - git commit -am "edit information new.json"
@@ -31,16 +31,16 @@ JSON
  12. Создать файл preferences.json - touch preferences.json
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате JSON.
 - cat >> preferences.json
-{"favorite film":"Kaunis mieli (2001)",
-"favorite TV series":"11.22.63 (2016)",
-"favorite food":"Solyanka",
-"favorite time of year":"Summer",
-"Visit the country":"Spain"
+{"favorite_film":"Kaunis mieli (2001)",
+"favorite_TV_series":"11.22.63 (2016)",
+"favorite_food":"Solyanka",
+"favorite_time_of_year":"Summer",
+"Visit_the_country":"Spain"
 }
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 - cat > skills.json
-{"hard skills":"linux, sql, JS(basis), api(postman), structure HTTPS, structure JSON, structure XML, Desktop testing, Dev Tools, Mobile Testing, Jmeter, Charles, Fiddler, Android Studio",
-"soft skills":"communication skill, emotional intelligence, critical thinking, creative thinking"
+{"hard_skills":["linux", "sql", "JS(basis)", "api(postman)", "structure HTTPS", "structure JSON", "structure XML", "Desktop testing", "Dev Tools", "Mobile Testing", "Jmeter", "Charles", "Fiddler", "Android Studio"],
+"soft_skills":["communication skill", "emotional intelligence", "critical thinking", "creative thinking"]
 }
  15. Отправить сразу 2 файла на внешний репозиторий.
 - git add .
@@ -58,7 +58,7 @@ JSON
  {"OS": "Windows 10 Version 21H2 (Build 19044.1706)",
  "Browser":"YaBrowser/22.3.4.731"
  }, 
- "Steps to reproduce":
+ "Steps_to_reproduce":
 ["1. ...",
  "2. ...",
  "3. ...",
@@ -70,8 +70,8 @@ JSON
  ],
  "Priority": "High",
  "Severity": "Critical",
- "Expected result": " .... ",
- "Actual result": " .... ",
+ "Expected_result": " .... ",
+ "Actual_result": " .... ",
  "Attachment": "-"
 }
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 

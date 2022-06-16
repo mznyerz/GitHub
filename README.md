@@ -1,5 +1,13 @@
-### GitHub
-GitHub. HW_2
+## GitHub
+### HW_1
+
+##### JSON
+[Link](https://github.com/mznyerz/JSON)
+##### XML
+[Link](https://github.com/mznyerz/XML)
+##### TXT
+[Link](https://github.com/mznyerz/TXT)
+### HW_2
 1. На локальном репозитории сделать ветки для:
 - Postman
 - Jmeter
